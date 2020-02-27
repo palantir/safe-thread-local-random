@@ -1,0 +1,3 @@
+rootProject.name = 'safe-thread-local-random-root'
+
+include 'safe-thread-local-random'
