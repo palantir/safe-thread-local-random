@@ -32,7 +32,7 @@ import java.util.stream.LongStream;
  */
 public final class SafeThreadLocalRandom extends Random {
 
-    private static final Random instance = new SafeThreadLocalRandom();
+    private static final Random INSTANCE = new SafeThreadLocalRandom();
     private boolean initialized;
 
     private SafeThreadLocalRandom() {
@@ -42,7 +42,7 @@ public final class SafeThreadLocalRandom extends Random {
 
     /** Gets the singleton {@link SafeThreadLocalRandom} instance. */
     public static Random get() {
-        return instance;
+        return INSTANCE;
     }
 
     @Override
