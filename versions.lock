@@ -3,7 +3,7 @@
 [Test dependencies]
 net.bytebuddy:byte-buddy:1.15.11 (1 constraints: 7f0bc9ea)
 org.apiguardian:apiguardian-api:1.1.2 (5 constraints: 105480ac)
-org.assertj:assertj-core:3.27.1 (1 constraints: 3f054f3b)
+org.assertj:assertj-core:3.27.2 (1 constraints: 4005503b)
 org.junit.jupiter:junit-jupiter:5.11.4 (1 constraints: 3d05483b)
 org.junit.jupiter:junit-jupiter-api:5.11.4 (3 constraints: fa2fcd52)
 org.junit.jupiter:junit-jupiter-engine:5.11.4 (1 constraints: 380e044a)
