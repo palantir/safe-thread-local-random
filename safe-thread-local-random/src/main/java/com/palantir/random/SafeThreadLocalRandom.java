@@ -47,7 +47,7 @@ public final class SafeThreadLocalRandom extends Random {
 
     @Override
     @SuppressWarnings("UnsynchronizedOverridesSynchronized")
-    public void setSeed(long _seed) {
+    public void setSeed(@SuppressWarnings("for-rollout:IdentifierName") long _seed) {
         // setSeed is invoked once in the constructor
         if (initialized) {
             throw new UnsupportedOperationException("SafeThreadLocalRandom does not support setSeed");
@@ -55,7 +55,7 @@ public final class SafeThreadLocalRandom extends Random {
     }
 
     @Override
-    protected int next(int _bits) {
+    protected int next(@SuppressWarnings("for-rollout:IdentifierName") int _bits) {
         throw new UnsupportedOperationException(
                 "Internal Random#next(int) is not supported, this should only be thrown if an override is missing");
     }
