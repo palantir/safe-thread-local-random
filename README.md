@@ -1,3 +1,7 @@
+<p align="right">
+<a href="https://autorelease.general.dmz.palantir.tech/palantir/safe-thread-local-random"><img src="https://img.shields.io/badge/Perform%20an-Autorelease-success.svg" alt="Autorelease"></a>
+</p>
+
 safe-thread-local-random
 ========================
 An implementation of [Random](https://docs.oracle.com/javase/8/docs/api/java/util/Random.html)
