@@ -12,7 +12,7 @@ org.assertj:assertj-core:3.27.7 (1 constraints: 4505553b)
 
 org.jspecify:jspecify:1.0.0 (6 constraints: 4166fe65)
 
-org.junit.jupiter:junit-jupiter:6.1.2 (1 constraints: 4a070f70)
+org.junit.jupiter:junit-jupiter:6.1.2 (1 constraints: 75070d77)
 
 org.junit.jupiter:junit-jupiter-api:6.1.2 (3 constraints: 642ff9d9)
 
